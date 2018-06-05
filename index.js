@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine) {
   var number = 1
   katzDeliLine.push(number)
   number++
-  return `Number ${katzDeliLine.length}`
+  return `Number ${number}`
 }
 
 function nowServing(katzDeliLine) {
